@@ -1,0 +1,18 @@
+{
+  "name": "hanoi",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite --https --open",
+    "build": "tsc && vite build",
+    "serve": "vite preview --open"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "vite": "^2.5.0"
+  },
+  "dependencies": {
+    "@types/node": "^16.7.4",
+    "phaser": "^3.55.2",
+    "phaser3-rex-plugins": "^1.1.59"
+  }
+}

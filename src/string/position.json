@@ -1,0 +1,19 @@
+{
+    "scoreText": {
+        "text": "Score: ",
+        "size": 35,
+        "positionX": 150,
+        "positionY": 50,
+        "font": "kenney_pixel"
+    },
+    "maxScoreText": {
+        "text": "High Score: ",
+        "size": 26,
+        "positionX": 150,
+        "positionY": 100,
+        "font": "kenney_pixel"
+    },
+    "playImage":{
+        "positionY": 320
+    }
+}
