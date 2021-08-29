@@ -53,8 +53,11 @@ export default class GameScene extends Phaser.Scene {
         this.columnPrefabList.push(new ColumnPrefab(this, centerX + this.columnSpaceX, columnY, true));
 
         var ground = this.add.sprite(centerX, 440, "box").setOrigin(.5, 0);
-        ground.setScale(15, 12);
+        ground.setScale(15, 1);
         ground.setTint(0xd6ae4c);
+        ground = this.add.sprite(centerX, 460, "box").setOrigin(.5, 0);
+        ground.setScale(15, 5);
+        ground.setTint(0x0ea700);
 
         this.events.on('shutdown', this.shutdownScene, this);
 
